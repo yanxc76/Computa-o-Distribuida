@@ -2,7 +2,7 @@ import threading
 import random
 import time
 
-N = 300  # troque depois para 600 e 1000
+N = 1000  # troque depois para 600 e 1000
 THREADS = 4
 
 A = [[random.random() for _ in range(N)] for _ in range(N)]
